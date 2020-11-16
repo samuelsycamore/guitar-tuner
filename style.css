@@ -1,3 +1,9 @@
+.container-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .container {
   background-image: url(guitarhead.jpg);
@@ -7,6 +13,26 @@
   width: 320px;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width: 400px) {
+  .container {
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .container {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .container {
+    height: 80vh;
+  }
+}
+
+
 
 .row {
   display: flex;
