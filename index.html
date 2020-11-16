@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GUITAR TUNER</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <audio id="1e" src="1e.mp3"></audio>
+    <audio id="2b" src="2b.mp3"></audio>
+    <audio id="3g" src="3g.mp3"></audio>
+    <audio id="4d" src="4d.mp3"></audio>
+    <audio id="5a" src="5a.mp3"></audio>
+    <audio id="6e" src="6e.mp3"></audio>
+
+
+    <div class="container">
+      <div class="stringbox">
+      <div class="row">
+        <div class="stringwrap"></div>
+        <span class="strings d" onclick="document.getElementById('4d').play()">D</span>
+        <div class="stringwrap"></div>
+        <span class="strings g" onclick="document.getElementById('3g').play()">G</span>
+      </div>
+      <div class="row">
+        <div class="stringwrap"></div>
+      <span class="strings a" onclick="document.getElementById('5a').play()">A</span>
+      <div class="stringwrap"></div>
+      <span class="strings b" onclick="document.getElementById('2b').play()">B</span>
+      </div>
+      <div class="row">
+        <div class="stringwrap"></div>
+      <span class="strings lowe" onclick="document.getElementById('6e').play()">E</span>
+      <div class="stringwrap"></div>
+      <span class="strings highe" onclick="document.getElementById('1e').play()">E</span>
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>

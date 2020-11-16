@@ -1,0 +1,40 @@
+
+.container {
+  background-image: url(guitarhead.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 90vh;
+  width: 320px;
+  background-repeat: no-repeat;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-item-align: center;
+}
+
+.strings {
+  border: 2px solid #ae9350;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px 11px;
+  opacity: 75%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.playing {
+  border: 5px solid red;
+}
+
+.d, .a, .lowe {
+  margin-right: 175px;
+}
+
+.stringbox {
+  position: absolute;
+  top: 20%;
+
+}
